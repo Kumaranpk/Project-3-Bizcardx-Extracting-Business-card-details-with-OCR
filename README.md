@@ -3,19 +3,19 @@
 **Introduction**
 Business card data extraction using Optical Character Recognition (OCR) is a cutting-edge technology that streamlines the process of digitizing contact information from physical business cards. By harnessing the power of OCR, businesses can efficiently convert printed text on business cards into digital data, enabling easy integration into contact management systems and enhancing networking and customer relationship management efforts.
 
-**Overview**
+**Overview:**
 In this streamlit web app, you can upload an image of a business card and extract relevant information such as name, designation, company, contact details, location etc from it using easyOCR. You can view, modify or delete the extracted data in this app. This app would also allow users to save the extracted information into a database along with the uploaded business card image. The database would be able to store multiple entries, each with its own business card image and extracted information.
 
-**1. Tools Installed**
+**1. Tools Installed: **
 Virtual Studio code, 
 Jupyter notebook, 
 Python 3.11.3 or higher, 
 MySQL.
 
-**2. Required Libraries**
+**2. Required Libraries: **
 
 streamlit, easyocr, mysql-connector-python, pandas, re.
-**3. Import Libraries**
+**3. Import Libraries:**
 Image handling libraries
 import easyocr
 from PIL import Image
@@ -27,23 +27,23 @@ import mysql.connector as sql
 import streamlit as st
 from streamlit_option_menu import option_menu
 
-**4. ETL and EDA Process**
+**4. ETL and EDA Process:**
 
-a) Extracting the data
+a) Extracting the data:
 Extract the particular business card data by using easyocr.
 
-b) Transforming the data
+b) Transforming the data:
 After the extraction process, the text data extracted is converted into a structured data in the form of dataframe.
 
-c) Loading data
+c) Loading data:
 After the transformation process, the data in the form of dataframe is stored in the MySQL database.
 
-d) Visualizing, Updating, deleting the data
+d) Visualizing, Updating, deleting the data:
 The extracted data can be visualized in the form of dataframe.
 
 The data can also be updated, modified and deleted from the database.
 
-**User Guide**
+**User Guide:**
 
 Step 1. Home Tab
 It provides a brief overview of the project and the tools required for the project.
