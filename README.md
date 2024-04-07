@@ -39,6 +39,7 @@ c) Loading data:
 After the transformation process, the data in the form of dataframe is stored in the MySQL database.
 
 d) Visualizing, Updating, deleting the data:
+
 The extracted data can be visualized in the form of dataframe.
 
 The data can also be updated, modified and deleted from the database.
