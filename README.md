@@ -7,10 +7,10 @@ Business card data extraction using Optical Character Recognition (OCR) is a cut
 In this streamlit web app, you can upload an image of a business card and extract relevant information such as name, designation, company, contact details, location etc from it using easyOCR. You can view, modify or delete the extracted data in this app. This app would also allow users to save the extracted information into a database along with the uploaded business card image. The database would be able to store multiple entries, each with its own business card image and extracted information.
 
 **1. Tools Installed**
-Virtual Studio code
-Jupyter notebook
-Python 3.11.3 or higher
-MySQL
+Virtual Studio code, 
+Jupyter notebook, 
+Python 3.11.3 or higher, 
+MySQL.
 
 **2. Required Libraries**
 
