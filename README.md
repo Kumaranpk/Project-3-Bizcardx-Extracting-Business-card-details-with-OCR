@@ -51,7 +51,7 @@ It provides a brief overview of the project and the tools required for the proje
 
 Step 2. Upload and Extract Tab
 In this tab, Browse a a business card file (image) using browse file button and upload the image in upload here section. The image will be processed, required data will be collected. The processed image will appear with collected data in the text format.
-Upoad the data to MySQL by clicking upload to MySQL button.
+Upoad the data to MySQL by clicking save button.
 The fetched data will appear in the form of data frame.
 
 Step 3. Modify Tab
